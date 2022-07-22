@@ -8,10 +8,10 @@ function Navigation() {
     return (
         <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="https://reactjs.org/docs/getting-started.html">React 101</Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/Greeter">Home</Link>
-            <Link to="/another-route">Features</Link>
+            <Link className="navLink" to="/greeter">Home</Link>
+            <Link className="navLink" to="/counter">Counter</Link>
           </Nav>
         </Container>
       </Navbar>
