@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Class Slide
--[React 101 Terms](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/SkitZdoic)
--[React Router Terms](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/Sy4BEgMn9)
--[React 101 In class assessment](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/BkkZz8vh9)
+- [React 101 Terms](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/SkitZdoic)
+- [React Router Terms](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/Sy4BEgMn9)
+- [React 101 In class assessment](https://hackmd.io/@XinhdUgJSt2kHuiYLatSqQ/BkkZz8vh9)
 ## Available Scripts
 
 In the project directory, you can run:
