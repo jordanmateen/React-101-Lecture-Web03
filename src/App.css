@@ -42,3 +42,8 @@
   color: white;
   margin-right: 12px;
 }
+
+label {
+  color: black;
+  font-size: medium;
+}

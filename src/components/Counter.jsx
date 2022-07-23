@@ -18,6 +18,12 @@ class Counter extends Component {
 
     }
 
+    // Lifecycle Method : 
+
+    componentDidMount(){}
+    componentDidUpdate(){}
+    componentWillUnmount(){}
+
     /**When using this syntax. We need to bound manually so that we can have access to correct value "this" **see constructor for reference** */
     _handleIncrement(){
         this.setState({

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React, { PureComponent } from 'react'
@@ -7,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import Counter from './components/Counter';
+import SignUpForm from './components/SignUpForm';
 
 class App extends PureComponent {
   constructor(props) {
@@ -27,8 +27,10 @@ class App extends PureComponent {
             <Routes>
               <Route path='/greeter' element={<Greeter name = "Jordan Mateen"/>}/>
               <Route path='/counter' element={<Counter initValue = {this.state.initialCounterValue}/>}/>
+              <Route path='/signup' element={<SignUpForm/>}/>
             </Routes>
           </header>
+
         </div>
       </BrowserRouter>
     )
